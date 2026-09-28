@@ -597,6 +597,43 @@
   </section>
 
   <!-- ========================================
+       FINAL MESSAGE / VISION
+  ========================================= -->
+  <section class="section vision-message-section" id="message">
+    <style>
+      .speech-bubble-container { display: flex; gap: 24px; align-items: flex-start; justify-content: center; margin-bottom: 3rem; text-align: left; max-width: 680px; margin-left: auto; margin-right: auto; }
+      .speech-bubble-avatar { width: 96px; height: 96px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1); flex-shrink: 0; border: 2px solid #fff; }
+      .speech-bubble { position: relative; background: #fff; padding: 1.5rem; border-radius: 16px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; flex: 1; }
+      .speech-bubble::before { content: ''; position: absolute; top: 32px; left: -10px; border-top: 10px solid transparent; border-bottom: 10px solid transparent; border-right: 10px solid #e2e8f0; }
+      .speech-bubble::after { content: ''; position: absolute; top: 32px; left: -9px; border-top: 10px solid transparent; border-bottom: 10px solid transparent; border-right: 10px solid #fff; }
+      @media (max-width: 600px) {
+        .speech-bubble-container { flex-direction: column; align-items: center; gap: 16px; }
+        .speech-bubble::before { top: -10px; left: 50%; margin-left: -10px; border-top: none; border-bottom: 10px solid #e2e8f0; border-right: 10px solid transparent; border-left: 10px solid transparent; }
+        .speech-bubble::after { top: -9px; left: 50%; margin-left: -10px; border-top: none; border-bottom: 10px solid #fff; border-right: 10px solid transparent; border-left: 10px solid transparent; }
+        .speech-bubble { padding: 1.25rem; }
+      }
+    </style>
+    <div class="container">
+      <div class="vision-message-card animate-on-scroll" style="text-align: center; background: #fafafa; padding: 4rem 2rem; border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.4); position: relative; max-width: 800px; margin-left: auto; margin-right: auto;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 6px; background: var(--color-gradient-hero);"></div>
+        <span style="color: #10b981; font-weight: 700; font-size: 0.95rem; letter-spacing: 0.1em; text-transform: uppercase; display: block; margin-bottom: 0.5rem;">Message</span>
+        <h2 style="color: #1e293b; font-size: 1.8rem; margin-bottom: 2.5rem; font-weight: 700; letter-spacing: 0.05em;">さいごに</h2>
+        
+        <div class="speech-bubble-container">
+          <img src="assets/profile-smile.jpg" alt="金岡 祐介" class="speech-bubble-avatar">
+          <div class="speech-bubble">
+            <p style="color: #334155; font-size: 1.05rem; line-height: 1.8; margin: 0;">
+              下記イラストのように、対話を通じて一人ひとりが「個性のウラオモテ（価値観・強み・弱み等）」に気付き、認め、味わいながら生きる人を増やしたいという想いで活動しています。
+            </p>
+          </div>
+        </div>
+
+        <img src="assets/vision-illustration.jpg" alt="個性のウラオモテ を 認めて味わう 人生を！ イラスト" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
        FOOTER
   ========================================= -->
   <footer class="footer">
