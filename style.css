@@ -223,8 +223,8 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
    Hero Section
    ========================================= */
 .hero {
-  min-height: 100vh; display: flex; align-items: center; justify-content: center;
-  position: relative; overflow: hidden; padding-top: 80px; padding-bottom: var(--space-16);
+  min-height: 100vh; display: flex; align-items: flex-start; justify-content: center;
+  position: relative; overflow: hidden; padding-top: 130px; padding-bottom: var(--space-16);
   background-color: var(--color-bg-primary);
 }
 
