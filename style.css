@@ -722,6 +722,9 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 .comparison-highlight strong {
   color: var(--color-accent-gold);
 }
+.comparison-highlight strong small {
+  color: var(--color-accent-gold) !important;
+}
 .comparison-highlight p,
 .comparison-highlight small {
   color: var(--color-text-primary) !important;
@@ -826,6 +829,9 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 }
 .comparison-table th.comparison-highlight {
   color: var(--color-accent-emerald) !important; font-size: var(--text-sm) !important;
+}
+.comparison-table th.comparison-highlight small {
+  color: var(--color-accent-emerald) !important;
 }
 
 /* =========================================
